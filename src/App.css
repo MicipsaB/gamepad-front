@@ -1,0 +1,295 @@
+/* -------------HEADER Starts------------ */
+
+header {
+  background-color: #171719;
+}
+
+header > div {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #1f2023;
+  border-bottom: solid #ff4655 2px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div > img {
+  width: 200px;
+  height: 45px;
+}
+
+/* -------------HEADER Ends------------ */
+
+/* -------------Home Page Starts-------------- */
+* {
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #171719;
+}
+
+.home-page {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #1f2023;
+  padding: 30px;
+}
+
+.home-page p {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.logo > img {
+  width: 540px;
+  height: 133px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination li.active {
+  font-weight: bold;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: white;
+}
+
+.games-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.game {
+  position: relative;
+  width: 200px;
+  height: 250px;
+
+  border-radius: 20px;
+}
+
+.game img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.game p {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+}
+
+.home-page > p {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.multiselect-element {
+  width: 200px;
+  height: 150px;
+  overflow: auto;
+}
+/* -------------Home Page Ends-------------- */
+
+/* ------------Game PAge Starts------------- */
+.game-main {
+  background-color: #171719;
+  padding-bottom: 80px;
+}
+
+.game-main h2 {
+  color: white;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.game-container {
+  background-color: #1f2023;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.game-container > p {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.game-details {
+  display: flex;
+
+  gap: 30px;
+}
+
+.game-img {
+  width: 565px;
+  height: 354px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.description-details {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.detail-span {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.title-similar-games {
+  display: flex;
+  flex-direction: column;
+}
+
+.similar-games {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.reviews-div {
+  width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.review {
+  width: 100%;
+  background-color: #303133;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* ------------Game PAge Ends------------- */
+
+/* --------------Favorites Page Starts----------- */
+
+.favorites-page {
+  background-color: #171719;
+  height: 100vh;
+  padding-bottom: 80px;
+}
+
+.favorites-main > h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.favorites-main {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #1f2023;
+  padding: 30px;
+}
+
+.favorites {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* --------------Favorites Page Ends----------- */
+
+/* ---------------Login Page Starts----------------- */
+
+.login-page {
+  background-color: #1f2023;
+  height: 100vh;
+  padding: 100px;
+}
+
+.login-content {
+  width: 800px;
+  height: 530px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #303133;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.login-form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  padding: 30px;
+}
+
+.login-form-div > h2 {
+  font-size: 24px;
+}
+
+.login-link {
+  color: white;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-description {
+  flex: 1;
+}
+
+/* ---------------Login Page Ends----------------- */
+
+/* ------------Review Page Starts------------ */
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review-text {
+  width: 500px;
+  height: 200px;
+}
+
+/* ------------Review Page Ends------------ */
