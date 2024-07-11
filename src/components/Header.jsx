@@ -1,5 +1,6 @@
 import logo from "../assets/images/logo.png";
 import Cookies from "js-cookie";
+import { Link } from "react-router-dom";
 
 const Header = ({ token, setToken }) => {
   return (
@@ -10,7 +11,10 @@ const Header = ({ token, setToken }) => {
         <div>
           {token ? (
             <div>
-              <button>My Collection</button>
+              <Link to={"/mycollection"}>
+                <button>My Collection</button>
+              </Link>
+
               <button
                 onClick={() => {
                   Cookies.remove("token");
@@ -21,7 +25,9 @@ const Header = ({ token, setToken }) => {
               </button>
             </div>
           ) : (
-            <button>Log in</button>
+            <Link to={"/login"}>
+              <button>Log in</button>
+            </Link>
           )}
         </div>
       </div>
