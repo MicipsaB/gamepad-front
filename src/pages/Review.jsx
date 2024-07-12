@@ -17,7 +17,7 @@ const Review = ({ token }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/reviews",
+        "https://site--gamedpad-back--bnyc4d5dnhdn.code.run/reviews",
         {
           gameId,
           title,
